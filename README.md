@@ -31,7 +31,7 @@ classDiagram
         +type: String
     }
 
-    Expense "1" *-- "1" TypeCard
-    Expense "1" *-- "1" Card
-    Expense "1" *-- "1" TypeExpense
+    Expense "N" --> "1" TypeCard
+    Expense "N" --> "1" Card
+    Expense "N" --> "1" TypeExpense
 ```
